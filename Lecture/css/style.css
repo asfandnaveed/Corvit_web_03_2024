@@ -1,0 +1,9 @@
+.ht{
+			font-size: 1.8rem;
+			color: magenta;
+}
+
+td,th,table{
+		border: 2px solid green;
+}
+
