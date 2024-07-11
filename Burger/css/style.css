@@ -13,9 +13,12 @@ body{
 	background-image: url("../images/background.png");
 }
 .heading1{
-	font-size: 4.0rem;
+
+	font-size: 3.0rem;
 	color:#3D2210;
-	font-family: 'super';
+/*	font-family: 'super';*/
+	height: 20px;
+	text-shadow: 5px 2px #FBEAC0;
 }
 
 .box1{
