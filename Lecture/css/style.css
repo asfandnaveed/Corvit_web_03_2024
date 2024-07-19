@@ -7,3 +7,9 @@ td,th,table{
 		border: 2px solid green;
 }
 
+.tb1,.tb1 th,.tb1 td{
+	border: 3px solid violet;
+}
+
+
+
