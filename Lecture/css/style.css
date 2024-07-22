@@ -1,15 +1,19 @@
-.ht{
-			font-size: 1.8rem;
-			color: magenta;
+
+
+.res{
+	font-size: 3.2rem;
+	color: green;
 }
 
-td,th,table{
-		border: 2px solid green;
+
+@media (max-width:600px){
+
+	.res{
+		font-size: 1.2rem;
+	}
+
 }
 
-.tb1,.tb1 th,.tb1 td{
-	border: 3px solid violet;
-}
 
 
 
