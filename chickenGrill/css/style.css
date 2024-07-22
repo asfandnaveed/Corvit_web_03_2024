@@ -3,3 +3,37 @@
 	font-family: 'grand';
 }
 
+.header{
+	background-color: #303030;
+}
+.h_heading{
+	font-size: 5.5rem;
+	font-family: 'grand';
+	color: #F6C443;
+}
+.h_sub_heading{
+	font-size: 1.4rem;
+	color: white;
+	font-weight: 200;
+	line-height: 1.2;
+}
+.h_btn{
+	background-color: #F0C041;
+	border-radius: 4px;
+	font-size: 0.8rem;
+	border: 1px solid black;
+	font-weight: 700;
+	padding-left: 2.2rem;
+	padding-right: 2.2rem;
+	padding-top: 0.6rem;
+	padding-bottom: 0.6rem;
+}
+.h_seller{
+	font-family: 'grand';
+	font-size: 3.2rem;
+}
+.h_seller_sub{
+	font-weight: 200;
+	font-size: 1.2rem;
+}
+
