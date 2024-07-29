@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Javascript</title>
+	<style>
+		.h1{
+			font-size: 5rem;
+
+		}
+	</style>
+</head>
+<body>
+
+
+	
+
+	<h1 id="text" class="h1">Hello Corvit </h1>
+
+	<img src="images/BurgerImage2.png" id="img">
+
+	<button onclick="changeProperties();"> Click to Change the text</button>
+
+	
+
+
+
+	<script type="text/javascript">
+
+		function changeProperties(){
+			document.getElementById('text').innerHTML= 'Text Changed';
+			document.getElementById('text').style.fontSize= '2rem';
+			document.getElementById('img').src='images/BurgerImage3.png'
+
+		}
+
+
+	</script>
+
+</body>
+</html>
+
+
+

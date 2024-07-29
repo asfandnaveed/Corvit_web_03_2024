@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Javascript</title>
+</head>
+
+<body>
+
+	<div id="img"></div>
+    
+	<div id='text'>Text</div>
+
+	<div id="cal"></div>
+
+	<input id="inp" type="number" >
+
+	<div id="result"></div>
+
+	<button onclick="detectValue();">Calculate</button>
+
+	<button onclick="changeProperties();">Button</button>
+
+	<script type="text/javascript">
+		function changeProperties(){
+			document.getElementById('text').innerHTML="<h1>Changed Text</h1>";
+			document.getElementById('img').innerHTML = "<img src='images/BurgerImage3.png'>";
+		}
+
+		function changeValue(){
+
+			var x = 10;
+			var y = "10";
+
+			document.getElementById('cal').innerHTML = y+x;
+		}
+
+		function detectValue() {
+			var age = document.getElementById('inp').value;
+
+			if(age > 30){
+
+				document.getElementById('result').innerHTML = "You are Old !";
+
+			}else{
+
+				document.getElementById('result').innerHTML = "You are Young !";
+
+			}
+
+			
+		}
+
+	</script>
+
+	
+
+</body>
+</html>
