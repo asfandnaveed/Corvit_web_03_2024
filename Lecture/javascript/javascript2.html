@@ -18,9 +18,12 @@
 
 	<div id="result"></div>
 
+	<div id="table"></div>
+
 	<button onclick="detectValue();">Calculate</button>
 
 	<button onclick="changeProperties();">Button</button>
+	<button onclick="showTable();">Table</button>
 
 	<script type="text/javascript">
 		function changeProperties(){
@@ -31,7 +34,7 @@
 		function changeValue(){
 
 			var x = 10;
-			var y = "10";
+			var y = "Hello";
 
 			document.getElementById('cal').innerHTML = y+x;
 		}
@@ -39,17 +42,36 @@
 		function detectValue() {
 			var age = document.getElementById('inp').value;
 
-			if(age > 30){
 
-				document.getElementById('result').innerHTML = "You are Old !";
+			if(age != ""){
+				if(age > 30){
 
-			}else{
+					document.getElementById('result').innerHTML = "You are Old !";
 
-				document.getElementById('result').innerHTML = "You are Young !";
+				}else{
+
+					document.getElementById('result').innerHTML = "You are Young !";
+
+				}
+			}
+			
+		}
+
+		function showTable(){
+
+
+
+			for(var i=1;i<10;i++){
+
+				
+
+
+				var value = "<div> 2 x "+i+"= " + (2*i)+"</div>";
+
+
+				document.getElementById('table').innerHTML += value ;
 
 			}
-
-			
 		}
 
 	</script>
