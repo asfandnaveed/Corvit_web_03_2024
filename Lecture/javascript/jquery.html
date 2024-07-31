@@ -40,13 +40,17 @@
 
 			console.log('Button Clicked ! ');
 
+			
+
 			$('.box').animate({
 				bottom : '0px',
 				right : '0px',
 				width : '200px',
 				height: '400px'
 
-			},3000);
+			},3000,function(){
+				$(this).css('left','0px');
+			});
 
 		});
 
