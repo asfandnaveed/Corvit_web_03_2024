@@ -12,3 +12,9 @@ https://www.figma.com/file/6fU33jPArz9Lb4QuwTvXBq/3D-Interactive-Animation-For-U
 
 # Project File 
 https://docs.google.com/document/d/1j4JWBOumJiJFuCjUG-lOGysQUbdew-B2JCX7u_yGR-I/edit?usp=sharing
+
+
+
+# SAMPLE WEB DATA
+https://drive.google.com/file/d/16GuWfW90PMRsuuwlL2YiELVHr4VDDqJd/view?usp=sharing
+https://drive.google.com/file/d/1eRMeAe1s_9lp3dShkuPm_ibg-SnvV8rc/view?usp=sharing
