@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Jquery</title>
+
+
+	<style type="text/css">
+		.box{
+			position: absolute;
+			width: 300px;
+			height: 300px;
+			background-color: green;
+		}
+	</style>
+
+</head>
+<body>
+
+	<div id="txt">Hello Corvit</div>
+	<button id="btn">Click Me</button>
+
+	<div id="txt2">Hello Corvit</div>
+
+	<div class="box">Animation Box</div>
+
+	
+
+
+
+
+
+	<script type="text/javascript" src="js/jquery-3.7.1.js"></script>
+	<script type="text/javascript">
+
+
+		$('#txt').hide();
+
+
+		$('#btn').click(function(){
+			$('#txt').text('Hello Students');
+			$('#txt').fadeIn(3000);
+
+			console.log('Button Clicked ! ');
+
+			
+
+			$('.box').animate({
+				bottom : '0px',
+				right : '0px',
+				width : '200px',
+				height: '400px'
+
+			},3000,function(){
+				$(this).css('left','0px');
+			});
+
+		});
+
+
+		$('#txt2').click(function(){
+			$(this).text('Changed !');
+		});
+
+
+
+
+
+		
+	</script>
+
+</body>
+</html>
